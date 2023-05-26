@@ -1,0 +1,13 @@
+nav {
+    background-color: #2196f3;
+    padding: 20px;
+}
+
+nav a {
+    padding: 10px 30px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #ff9800;
+    border-radius: 4px;
+}
