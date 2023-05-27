@@ -15,10 +15,12 @@ const deleteNewsBlog = (id) => Delete(`posts/${id}`);
 const updateNewsBlog = (data, id) => Put(`posts/${id}`, data);
 
 // GET
-const getNewsBlog = () => Get('posts?_sort=id&_order=desc');
+const getNewsBlog = () => Get('posts?_sort=id&_order=desc', true);
+const getComments = () => Get('comments', false);
 
 const API = {
     getNewsBlog,
+    getComments,
     postNewsBlog,
     updateNewsBlog,
     deleteNewsBlog

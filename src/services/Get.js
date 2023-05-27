@@ -1,9 +1,9 @@
 import axios from "axios";
-import { RootPath } from "./Config";
+import { OnlineRoot, RootPath } from "./Config";
 
-const Get = (path) => {
+const Get = (path, root) => {
     const promise = new Promise((resolve, reject) => {
-        axios.get(`${RootPath}/${path}`)
+        axios.get(`${root ? OnlineRoot : RootPath}/${path}`)
         .then((result) => {
             resolve(result.data);
         }, (err) => {

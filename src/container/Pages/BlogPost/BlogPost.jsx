@@ -33,6 +33,12 @@ class BlogPost extends Component {
             })
         })
         // mengambil semua data post dr api local
+        API.getComments().then(result => {
+            this.setState({
+                comments: result
+            })
+        })
+        // mengambil semua data comments dr api json placeholder
     }
     // mengambil semua data dr api local, lalu memasukkan nya ke state post
 
