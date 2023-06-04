@@ -5,13 +5,11 @@ import reportWebVitals from './reportWebVitals';
 // import Product from './container/Product/Product';
 import Home from './container/Home/Home';
 // import { Provider } from 'react-redux';
-// import { createStore } from 'redux';
 // import { configureStore } from '@reduxjs/toolkit';
 // import rootReducer from './redux/Reducer/globalReducer';
 
 
 // store
-// const storeRedux = createStore(rootReducer);
 // const storeRedux = configureStore({reducer: rootReducer});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

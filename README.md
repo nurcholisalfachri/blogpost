@@ -1,6 +1,9 @@
 this app using state management context. if you want to switch to redux following this instruction:
 
 1. in index.js, change to this,
+import { Provider } from 'react-redux';
+import { configureStore } from '@reduxjs/toolkit';
+import rootReducer from './redux/Reducer/globalReducer';
 {/* <Provider store={storeRedux}>
     <Home />
 </Provider> */}

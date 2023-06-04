@@ -11,7 +11,7 @@ class Product2 extends Component {
                 <p className="prod-title">Halaman Product</p>
                 <hr />
                 <div className="troley">
-                    <div className="count">Total Order in kilogram: {this.props.state.totalOrder} kg</div>
+                    <div className="counter">Total Order in kilogram: {this.props.state.totalOrder} kg</div>
                 </div>
                 <CardProduct />
             </Fragment>

@@ -7,7 +7,7 @@ class Counter extends Component {
 
     render(){
         return(
-            <div>
+            <div className="counter">
                 <button className="minus" onClick={this.props.handleMinus}>-</button>
                 <input type="text" value={this.props.order} />
                 <button className="plus" onClick={this.props.handlePlus}>+</button>
