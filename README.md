@@ -4,14 +4,14 @@ this app using state management context. if you want to switch to redux followin
 import { Provider } from 'react-redux';
 import { configureStore } from '@reduxjs/toolkit';
 import rootReducer from './redux/Reducer/globalReducer';
-{/* <Provider store={storeRedux}>
+<Provider store={storeRedux}>
     <Home />
-</Provider> */}
+</Provider>
 
 2. in cardproduct, change to this,
 import Counter from "./Counter";
-<Counter />
+<Counter></Counter>
 
 3. in Home, change to this,
 import Product from "../Pages/Product/Product";
-<Route path="/product" element={<Product />} />
+<Route path="/product" element={<Product></Product>} />
