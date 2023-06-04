@@ -1,11 +1,20 @@
 nav {
+    display: flex;
     background-color: #2196f3;
-    padding: 20px;
+    padding: 10px;
 }
+
+
+.nav-con {
+    margin-left: 310px;
+    display: flex;
+}
+
+
 
 nav a {
     padding: 10px 30px;
-    margin: 10px;
+    margin: 0 20px ;
     text-decoration: none;
     color: white;
     background-color: #ff9800;

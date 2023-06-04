@@ -1,7 +1,41 @@
+.prod-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .troley {
-    margin: auto;
+    margin-left: 345px;
 }
 
 .counter {
     margin: auto;
+}
+
+.prod-con {
+    margin-left: 345px;
+}
+
+.minus,
+.plus {
+  color: white;
+  height: 35px;
+  width: 35px;
+  background: #2196f3;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+.counter {
+  margin-bottom: 10px;
+}
+
+.counter input {
+  height: 30px;
+  width: 150px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  text-align: center;
+  margin: 0 5px;
 }

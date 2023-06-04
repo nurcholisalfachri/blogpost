@@ -4,7 +4,6 @@ import { GlobalConsumer } from "../../context/context";
 class Counter2 extends Component {
 
     render(){
-        // console.log(this) berisi salah satunya props: state, dispatch
         return(
             <div className="counter">
                 <button className="minus" onClick={()=> this.props.dispatch({type: 'MINUS_ORDER'})}>-</button>

@@ -5,7 +5,7 @@ const globalState = {
 }
 
 // reducer
-const rootReducer = (state = globalState, action) => {
+const globalReducer = (state = globalState, action) => {
     if(action.type === ActionType.PLUS_ORDER) {
         return {
         ...state,
@@ -17,7 +17,6 @@ const rootReducer = (state = globalState, action) => {
         if(state.totalOrder > 0) {
         totalOrder = state.totalOrder -1
         }
-        // agar tidak min nilainya
         return {
         ...state,
         totalOrder: totalOrder
@@ -26,4 +25,4 @@ const rootReducer = (state = globalState, action) => {
     return state;
 }
 
-export default rootReducer;
+export default globalReducer;
