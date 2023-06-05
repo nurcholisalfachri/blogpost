@@ -8,7 +8,7 @@ class Product extends Component {
     render(){
         return(
             <Fragment>
-                <p className="prod-title">Halaman Product</p>
+                <p className="prod-title">Product Page</p>
                 <hr />
                 <div className="troley">
                     <div className="counter">Total Order in kilogram: {this.props.order} kg</div>

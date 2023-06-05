@@ -102,7 +102,7 @@ class BlogPost extends Component {
     render(){
         return(
             <Fragment>
-                <p className="section-title">Halaman Blogpost</p>
+                <p className="section-title">Blogpost Page</p>
                 <hr />
                 <div className="add-con">
                     <div className="form-add-post">
@@ -110,7 +110,7 @@ class BlogPost extends Component {
                         <input type="text" name="title" value={this.state.formBlogPost.title} placeholder="add title" onChange={this.handleFormChange}/>
                         <label htmlFor="body">Blog Content</label>
                         <textarea name="body" id="body" cols="30" rows="10" value={this.state.formBlogPost.body} placeholder='add blog content' onChange={this.handleFormChange}></textarea>
-                        <button className='btn-submit' onClick={this.handleSubmit}>Simpan</button>
+                        <button className='btn-submit' onClick={this.handleSubmit}>Save</button>
                     </div>
                     <div className="post-con">
                         {
