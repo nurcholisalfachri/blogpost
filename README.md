@@ -15,3 +15,7 @@ import Counter from "./Counter";
 3. in Home, change to this,
 import Product from "../Pages/Product/Product";
 <Route path="/product" element={<Product />} />
+
+
+to show posts, type this:
+json-server --watch db.json --port 3004
